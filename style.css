@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #6A5ACD; /* Set calculator background color to purple */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    padding: 20px; /* Add padding for spacing */
+}
+
+#display {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #ccc; /* Add border for display */
+    border-radius: 5px; /* Add border radius for display */
+    background-color: #fff; /* Set display background color to white */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #8A2BE2; /* Set button background color to purple */
+    color: #fff; /* Set button text color to white */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add border radius for rounded buttons */
+}
+
+button:hover {
+    background-color: #6B238E; /* Darken button color on hover */
+}
